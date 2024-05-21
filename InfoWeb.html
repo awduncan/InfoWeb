@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+        <title>Learn About Web Development and Database</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <!--Start of the web page-->
+    <body>
+        <div id="body">
+        <!--Title section-->
+        <section>
+            <span class="dot"></span>
+            <h1 class="title">Learn About Web Development and Databases</h1>
+        </section>
+        <!--Explaination of web applications-->
+        <div>
+            <h2>What is a Web Application</h2>
+            <p>
+                Web applications are programs you use online through a web browser.
+                Unlike regular software that you need to install on your computer, web applications run on servers and you can access them from any device with an internet connection.
+                They work by using both server-side scripts, which manage data and processing, and client-side scripts, which handle the user interface and interactions.
+                Examples of web applications include email services like Gmail, online document editors like Google Docs, and social media sites like Facebook.
+                They are popular because they can be easily updated, work on different devices, and don't need to be installed on your computer.
+                <p>
+                Examples of web applications include Gmail, Amazon, Facebook, and Google Docs.
+                </p>
+            <!--Add images of example icons-->
+            <img src="./images/2416660.webp" alt="gmail" height="100">
+            <img src="./images/amazon-logo-amazon-icon-transparent-free-png.webp" alt="amazon" height="60" class="amazon">
+            <img src="./images/icon 3.webp" alt="facebook" height="100">
+            <img src="./images/icon 4.webp" alt="google docs" height="60" class="icon">
+            </p>
+        </div>
+        <!--Section on how web app interacts with back end databases-->
+        <div>
+            <h2>Interaction Between Web Applications and Back-End Databases</h2>
+                <p>Web applications rely heavily on back-end databases to store, retrieve, and manage data.
+                   This interaction is crucial for providing dynamic and personalized user experiences.
+                   Here’s a detailed look at how this process works:
+                </p>
+                <!--Image of AI database-->
+                <img src="./images/AI photo 2.png" height="400" class="ai-database">
+                <!--Sub section for web app and back-end interaction-->
+                    <ul class="steps">
+                        <h4>User Request Initiation</h4>
+                        <p>
+                            When a user interacts with a web application—such as by submitting a form, logging in, 
+                            or searching for information—their request is sent from their web browser to the web server hosting the application.
+                            Depending on the action, this request typically includes HTTP methods like 
+                        </p> 
+                        <!--List of HTTP methods-->   
+                            <ul>
+                                <li>GET </li>
+                                <li>POST</li>
+                                <li>PUT</li>
+                                <li>DELETE</li>
+                            </ul>
+                        <h4>Server-Side Processing</h4>
+                        <p>
+                            The web server receives the request and passes it to the appropriate server-side application logic.
+                            This logic is usually written in languages such as Python, Ruby, PHP, Java, or Node.js.
+                            The server-side script processes the request and determines if it needs to interact with the database.
+                        </p>
+                        <h4>Database Query Formation</h4>
+                        <p>
+                            If the request involves data retrieval, storage, updating, or deletion, the server-side application constructs a query.
+                            This query is typically written in SQL (Structured Query Language) for relational databases like MySQL, PostgreSQL, or SQLite, 
+                            or in a query language like MongoDB’s BSON for NoSQL databases.
+                        </p>   
+                        <h4>Query Execution</h4>
+                        <p>
+                            Once the server-side script sends this query to the database management system (DBMS), 
+                            the DBMS processes the query by accessing the database and performing the requested operation, such as fetching records, 
+                            updating values, or deleting entries.
+                        </p>
+                        <h4>Database Response</h4>
+                        <p>
+                            The DBMS then returns the results to the server-side script, which processes the data received and formats it into a structure suitable for the client-side, 
+                            often as JSON (JavaScript Object Notation) or XML (Extensible Markup Language). The formatted data is then sent back to the web browser through an HTTP response.
+                        </p>
+                        <h4>Sending Data Back to Client</h4>
+                        <p>
+                            The client-side script (usually written in JavaScript) receives this data and updates the web page accordingly, displaying the requested information or reflecting the changes made. 
+                            Finally, the client-side script dynamically updates the web page based on the data received from the server, which might involve rendering new content, updating existing information, 
+                            or displaying messages to the user.
+                        </p>
+                        <!--Image of web app structure-->
+                        <img src="./images/Diagram-54-1024x815.jpg" height="380" class="diagram" >
+                    </ul>
+        </div>
+        <!--Section for intranet and internet -->
+        <h2>Examples of Intranet and Internet in Businesses</h2>
+        <li> 
+            <strong>Company Intranet Portals:</strong> Employees use intranet portals to access internal news, announcements, and resources. 
+            These portals often include forums, chat tools, and social media-like features to foster communication and collaboration.
+        </li>
+        <!--Needed space, bullet points where to close-->
+        <br>
+        <li>
+            <strong>Online Stores:</strong> Online Stores: Companies operate e-commerce websites to sell products and services directly to consumers over the internet. 
+            Platforms like Shopify, Magento, or WooCommerce enable businesses to manage online stores, process transactions, and handle inventory.
+        </li>
+        <!--Image of AI "shopify"-->
+        <img src="./images/AI photo 4.png" height="350" class="ai-shop">
+    </body>
+    <footer>
+        <p>&copy; Created by Alanah Warner-Duncan </p>
+    </footer>
+</html>

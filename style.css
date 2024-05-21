@@ -1,0 +1,56 @@
+body {
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 5%;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-image: url('./images/AI\ photo\ 1.png');
+}
+#body {
+    background-color: aliceblue;
+    padding: 8%;
+    padding-bottom: 0%;
+    border-radius: 5%;
+}
+h1 {
+    font-size: 220%;
+    text-align: center;
+    padding-bottom: 5%;
+}
+.steps p{
+    margin-top: -1%;
+}
+.icon {
+    position: relative;
+    bottom: 20px;
+    left: 10px;
+}
+.amazon {
+    position: relative;
+    bottom: 15px;
+}
+.diagram {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.ai-shop {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+.ai-database {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5%;
+}
+footer {
+    text-align: center;
+    padding: 10%;
+}
